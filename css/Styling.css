@@ -1,1 +1,29 @@
-.welcome-page {background-color: black;font-family: cursive; color: white;}
+.welcome-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.fx-neon:hover {background-color: #39ff14;}
+
+.aboutme-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+ img {
+  float: right;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.myinterests-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+.fx-neon {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #39ff14;                /* Neon green text */
+  text-decoration: none;         /* Removes text underline */
+  border: 2px solid #39ff14;     /* Button border box */
+  border-radius: 6px;            /* Rounded corners */
+  background-color: transparent; /* Box interior */
+  transition: all 0.2s ease;     /* Smooth hover transition */
+}
+
+/* Filled background on hover */
+.fx-neon:hover {
+  background-color: #39ff14;
+  color: #000000;                /* Black text on neon background */
+  box-shadow: 0 0 10px #39ff14;  /* Glowing outer box effect */
+}
