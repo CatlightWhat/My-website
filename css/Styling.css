@@ -1,15 +1,62 @@
-.welcome-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
-.fx-neon:hover {background-color: #39ff14;}
+.welcome-page {background-color: black;
+  font-family: 'dancing script', cursive; color: white;
+  text-align: center; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
 
-.aboutme-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
- img {
+
+
+
+.aboutme-page {
+  background-color: black;
+  font-family: 'dancing script', cursive; 
+  color: white; text-align: center; 
+  padding: 50px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+
+
+.aboutme-page p {
+  font-size: 26px;
+}
+.aboutme-page h1 {
+  font-size: 60;
+}
+
+
+
+ .Mc-pic {
   float: right;
   margin-left: 16px;
   margin-bottom: 10px;
 }
 
-.myinterests-page {background-color: black;font-family: cursive; color: white; text-align: center; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
 
+
+
+.myinterests-page {
+  background-color: black;
+  font-family:'dancing script', cursive; 
+  color: white; text-align: center; 
+  padding: 50px; border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+  .Shark-pic {
+  float: left;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+.myinterests-page p {
+  font-size: 26px;
+  text-align: left;
+}
+
+
+
+
+
+.fx-neon:hover {background-color: #39ff14;}
 .fx-neon {
   display: inline-block;
   padding: 8px 16px;
