@@ -53,7 +53,26 @@
 }
 
 
+.friends-page {
+    background-color: black;
+  font-family:'dancing script', cursive; 
+  color: white; text-align: center; 
+  padding: 50px; border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.friends-page h1 {
+  text-align: center;
+}
 
+.Holly-pic {
+  float: left;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+.friends-page p {
+font-size: 26px;
+text-align: left;
+}
 
 
 .fx-neon:hover {background-color: #39ff14;}
